@@ -11,10 +11,9 @@ private:
     high_resolution_clock::time_point tiempoInicial;
     high_resolution_clock::time_point tiempoFinal;
 public:
-    Cronometro();
     void start();
     void stop();
-    double getTimeElapsed();
+    double getSecondsElapsed();
 };
 
 #endif // CRONOMETRO_H
