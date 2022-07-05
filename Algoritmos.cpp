@@ -49,5 +49,5 @@ void Algoritmos::bubbleSort(int* arreglo, size_t TAM)
     }
 
     this->cronometro.stop();
-    this->tiempoDeEjecucion = this->cronometro.getTimeElapsed();
+    this->tiempoDeEjecucion = this->cronometro.getSecondsElapsed();
 }
